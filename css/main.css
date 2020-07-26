@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('normalize.css');
+
+@import url('structure.css');
+@import url('header.css');
+@import url('content.css');
+@import url('footer.css');
+
+body {
+  font-family: "Rubik", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.btn {
+  color: #FFF;
+  background-color: #FF9600;
+  padding: 20px 25px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ffa626;
+}
+
+.title {
+  color: #4F4F4F;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-weight: bold;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  margin-bottom: 60px;
+}
